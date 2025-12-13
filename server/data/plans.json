@@ -1,0 +1,2730 @@
+[
+  {
+    "id": "8ae03116-908b-4e2a-9020-581dde6f97cb",
+    "projectId": "b08a7df1-16d1-48bd-83a2-d8f38aae22c1",
+    "createdAt": "2025-12-13T16:13:30.164Z",
+    "rootPool": "10.0.0.0/8",
+    "allocations": [
+      {
+        "siteId": "n1",
+        "siteName": "CSE-Lab",
+        "requestedHosts": 120,
+        "assignedCidr": "10.0.0.0/25",
+        "capacity": 126
+      },
+      {
+        "siteId": "n2",
+        "siteName": "Admin-Office",
+        "requestedHosts": 30,
+        "assignedCidr": "10.0.0.192/27",
+        "capacity": 30
+      },
+      {
+        "siteId": "n3",
+        "siteName": "Guest-WiFi",
+        "requestedHosts": 50,
+        "assignedCidr": "10.0.0.128/26",
+        "capacity": 62
+      }
+    ],
+    "available": [
+      {
+        "cidr": "10.0.0.224/27",
+        "start": 167772384,
+        "end": 167772415,
+        "prefix": 27
+      },
+      {
+        "cidr": "10.0.1.0/24",
+        "start": 167772416,
+        "end": 167772671,
+        "prefix": 24
+      },
+      {
+        "cidr": "10.0.2.0/23",
+        "start": 167772672,
+        "end": 167773183,
+        "prefix": 23
+      },
+      {
+        "cidr": "10.0.4.0/22",
+        "start": 167773184,
+        "end": 167774207,
+        "prefix": 22
+      },
+      {
+        "cidr": "10.0.8.0/21",
+        "start": 167774208,
+        "end": 167776255,
+        "prefix": 21
+      },
+      {
+        "cidr": "10.0.16.0/20",
+        "start": 167776256,
+        "end": 167780351,
+        "prefix": 20
+      },
+      {
+        "cidr": "10.0.32.0/19",
+        "start": 167780352,
+        "end": 167788543,
+        "prefix": 19
+      },
+      {
+        "cidr": "10.0.64.0/18",
+        "start": 167788544,
+        "end": 167804927,
+        "prefix": 18
+      },
+      {
+        "cidr": "10.0.128.0/17",
+        "start": 167804928,
+        "end": 167837695,
+        "prefix": 17
+      },
+      {
+        "cidr": "10.1.0.0/16",
+        "start": 167837696,
+        "end": 167903231,
+        "prefix": 16
+      },
+      {
+        "cidr": "10.2.0.0/15",
+        "start": 167903232,
+        "end": 168034303,
+        "prefix": 15
+      },
+      {
+        "cidr": "10.4.0.0/14",
+        "start": 168034304,
+        "end": 168296447,
+        "prefix": 14
+      },
+      {
+        "cidr": "10.8.0.0/13",
+        "start": 168296448,
+        "end": 168820735,
+        "prefix": 13
+      },
+      {
+        "cidr": "10.16.0.0/12",
+        "start": 168820736,
+        "end": 169869311,
+        "prefix": 12
+      },
+      {
+        "cidr": "10.32.0.0/11",
+        "start": 169869312,
+        "end": 171966463,
+        "prefix": 11
+      },
+      {
+        "cidr": "10.64.0.0/10",
+        "start": 171966464,
+        "end": 176160767,
+        "prefix": 10
+      },
+      {
+        "cidr": "10.128.0.0/9",
+        "start": 176160768,
+        "end": 184549375,
+        "prefix": 9
+      }
+    ]
+  },
+  {
+    "id": "f03cd438-326c-4743-b8f6-db107ef61107",
+    "projectId": "b08a7df1-16d1-48bd-83a2-d8f38aae22c1",
+    "createdAt": "2025-12-13T16:13:35.681Z",
+    "rootPool": "10.0.0.0/8",
+    "allocations": [
+      {
+        "siteId": "n1",
+        "siteName": "CSE-Lab",
+        "requestedHosts": 120,
+        "assignedCidr": "10.0.0.0/25",
+        "capacity": 126
+      },
+      {
+        "siteId": "n2",
+        "siteName": "Admin-Office",
+        "requestedHosts": 30,
+        "assignedCidr": "10.0.0.192/27",
+        "capacity": 30
+      },
+      {
+        "siteId": "n3",
+        "siteName": "Guest-WiFi",
+        "requestedHosts": 50,
+        "assignedCidr": "10.0.0.128/26",
+        "capacity": 62
+      }
+    ],
+    "available": [
+      {
+        "cidr": "10.0.0.224/27",
+        "start": 167772384,
+        "end": 167772415,
+        "prefix": 27
+      },
+      {
+        "cidr": "10.0.1.0/24",
+        "start": 167772416,
+        "end": 167772671,
+        "prefix": 24
+      },
+      {
+        "cidr": "10.0.2.0/23",
+        "start": 167772672,
+        "end": 167773183,
+        "prefix": 23
+      },
+      {
+        "cidr": "10.0.4.0/22",
+        "start": 167773184,
+        "end": 167774207,
+        "prefix": 22
+      },
+      {
+        "cidr": "10.0.8.0/21",
+        "start": 167774208,
+        "end": 167776255,
+        "prefix": 21
+      },
+      {
+        "cidr": "10.0.16.0/20",
+        "start": 167776256,
+        "end": 167780351,
+        "prefix": 20
+      },
+      {
+        "cidr": "10.0.32.0/19",
+        "start": 167780352,
+        "end": 167788543,
+        "prefix": 19
+      },
+      {
+        "cidr": "10.0.64.0/18",
+        "start": 167788544,
+        "end": 167804927,
+        "prefix": 18
+      },
+      {
+        "cidr": "10.0.128.0/17",
+        "start": 167804928,
+        "end": 167837695,
+        "prefix": 17
+      },
+      {
+        "cidr": "10.1.0.0/16",
+        "start": 167837696,
+        "end": 167903231,
+        "prefix": 16
+      },
+      {
+        "cidr": "10.2.0.0/15",
+        "start": 167903232,
+        "end": 168034303,
+        "prefix": 15
+      },
+      {
+        "cidr": "10.4.0.0/14",
+        "start": 168034304,
+        "end": 168296447,
+        "prefix": 14
+      },
+      {
+        "cidr": "10.8.0.0/13",
+        "start": 168296448,
+        "end": 168820735,
+        "prefix": 13
+      },
+      {
+        "cidr": "10.16.0.0/12",
+        "start": 168820736,
+        "end": 169869311,
+        "prefix": 12
+      },
+      {
+        "cidr": "10.32.0.0/11",
+        "start": 169869312,
+        "end": 171966463,
+        "prefix": 11
+      },
+      {
+        "cidr": "10.64.0.0/10",
+        "start": 171966464,
+        "end": 176160767,
+        "prefix": 10
+      },
+      {
+        "cidr": "10.128.0.0/9",
+        "start": 176160768,
+        "end": 184549375,
+        "prefix": 9
+      }
+    ]
+  },
+  {
+    "id": "e01a1ae6-7d23-46b3-8cdd-9376cd290409",
+    "projectId": "b08a7df1-16d1-48bd-83a2-d8f38aae22c1",
+    "createdAt": "2025-12-13T16:13:37.619Z",
+    "rootPool": "10.0.0.0/8",
+    "allocations": [
+      {
+        "siteId": "n1",
+        "siteName": "CSE-Lab",
+        "requestedHosts": 120,
+        "assignedCidr": "10.0.0.0/25",
+        "capacity": 126
+      },
+      {
+        "siteId": "n2",
+        "siteName": "Admin-Office",
+        "requestedHosts": 30,
+        "assignedCidr": "10.0.0.192/27",
+        "capacity": 30
+      },
+      {
+        "siteId": "n3",
+        "siteName": "Guest-WiFi",
+        "requestedHosts": 50,
+        "assignedCidr": "10.0.0.128/26",
+        "capacity": 62
+      }
+    ],
+    "available": [
+      {
+        "cidr": "10.0.0.224/27",
+        "start": 167772384,
+        "end": 167772415,
+        "prefix": 27
+      },
+      {
+        "cidr": "10.0.1.0/24",
+        "start": 167772416,
+        "end": 167772671,
+        "prefix": 24
+      },
+      {
+        "cidr": "10.0.2.0/23",
+        "start": 167772672,
+        "end": 167773183,
+        "prefix": 23
+      },
+      {
+        "cidr": "10.0.4.0/22",
+        "start": 167773184,
+        "end": 167774207,
+        "prefix": 22
+      },
+      {
+        "cidr": "10.0.8.0/21",
+        "start": 167774208,
+        "end": 167776255,
+        "prefix": 21
+      },
+      {
+        "cidr": "10.0.16.0/20",
+        "start": 167776256,
+        "end": 167780351,
+        "prefix": 20
+      },
+      {
+        "cidr": "10.0.32.0/19",
+        "start": 167780352,
+        "end": 167788543,
+        "prefix": 19
+      },
+      {
+        "cidr": "10.0.64.0/18",
+        "start": 167788544,
+        "end": 167804927,
+        "prefix": 18
+      },
+      {
+        "cidr": "10.0.128.0/17",
+        "start": 167804928,
+        "end": 167837695,
+        "prefix": 17
+      },
+      {
+        "cidr": "10.1.0.0/16",
+        "start": 167837696,
+        "end": 167903231,
+        "prefix": 16
+      },
+      {
+        "cidr": "10.2.0.0/15",
+        "start": 167903232,
+        "end": 168034303,
+        "prefix": 15
+      },
+      {
+        "cidr": "10.4.0.0/14",
+        "start": 168034304,
+        "end": 168296447,
+        "prefix": 14
+      },
+      {
+        "cidr": "10.8.0.0/13",
+        "start": 168296448,
+        "end": 168820735,
+        "prefix": 13
+      },
+      {
+        "cidr": "10.16.0.0/12",
+        "start": 168820736,
+        "end": 169869311,
+        "prefix": 12
+      },
+      {
+        "cidr": "10.32.0.0/11",
+        "start": 169869312,
+        "end": 171966463,
+        "prefix": 11
+      },
+      {
+        "cidr": "10.64.0.0/10",
+        "start": 171966464,
+        "end": 176160767,
+        "prefix": 10
+      },
+      {
+        "cidr": "10.128.0.0/9",
+        "start": 176160768,
+        "end": 184549375,
+        "prefix": 9
+      }
+    ]
+  },
+  {
+    "id": "60a8f3ae-183d-4440-996b-d99a90dfe2c9",
+    "projectId": "c9c861fa-5be1-430f-9483-0c97d0674b22",
+    "createdAt": "2025-12-13T16:16:46.757Z",
+    "rootPool": "10.0.0.0/8",
+    "allocations": [
+      {
+        "siteId": "n1",
+        "siteName": "CSE-Lab",
+        "requestedHosts": 120,
+        "assignedCidr": "10.0.0.0/25",
+        "capacity": 126
+      },
+      {
+        "siteId": "n2",
+        "siteName": "Admin-Office",
+        "requestedHosts": 30,
+        "assignedCidr": "10.0.0.192/27",
+        "capacity": 30
+      },
+      {
+        "siteId": "n3",
+        "siteName": "Guest-WiFi",
+        "requestedHosts": 50,
+        "assignedCidr": "10.0.0.128/26",
+        "capacity": 62
+      }
+    ],
+    "available": [
+      {
+        "cidr": "10.0.0.224/27",
+        "start": 167772384,
+        "end": 167772415,
+        "prefix": 27
+      },
+      {
+        "cidr": "10.0.1.0/24",
+        "start": 167772416,
+        "end": 167772671,
+        "prefix": 24
+      },
+      {
+        "cidr": "10.0.2.0/23",
+        "start": 167772672,
+        "end": 167773183,
+        "prefix": 23
+      },
+      {
+        "cidr": "10.0.4.0/22",
+        "start": 167773184,
+        "end": 167774207,
+        "prefix": 22
+      },
+      {
+        "cidr": "10.0.8.0/21",
+        "start": 167774208,
+        "end": 167776255,
+        "prefix": 21
+      },
+      {
+        "cidr": "10.0.16.0/20",
+        "start": 167776256,
+        "end": 167780351,
+        "prefix": 20
+      },
+      {
+        "cidr": "10.0.32.0/19",
+        "start": 167780352,
+        "end": 167788543,
+        "prefix": 19
+      },
+      {
+        "cidr": "10.0.64.0/18",
+        "start": 167788544,
+        "end": 167804927,
+        "prefix": 18
+      },
+      {
+        "cidr": "10.0.128.0/17",
+        "start": 167804928,
+        "end": 167837695,
+        "prefix": 17
+      },
+      {
+        "cidr": "10.1.0.0/16",
+        "start": 167837696,
+        "end": 167903231,
+        "prefix": 16
+      },
+      {
+        "cidr": "10.2.0.0/15",
+        "start": 167903232,
+        "end": 168034303,
+        "prefix": 15
+      },
+      {
+        "cidr": "10.4.0.0/14",
+        "start": 168034304,
+        "end": 168296447,
+        "prefix": 14
+      },
+      {
+        "cidr": "10.8.0.0/13",
+        "start": 168296448,
+        "end": 168820735,
+        "prefix": 13
+      },
+      {
+        "cidr": "10.16.0.0/12",
+        "start": 168820736,
+        "end": 169869311,
+        "prefix": 12
+      },
+      {
+        "cidr": "10.32.0.0/11",
+        "start": 169869312,
+        "end": 171966463,
+        "prefix": 11
+      },
+      {
+        "cidr": "10.64.0.0/10",
+        "start": 171966464,
+        "end": 176160767,
+        "prefix": 10
+      },
+      {
+        "cidr": "10.128.0.0/9",
+        "start": 176160768,
+        "end": 184549375,
+        "prefix": 9
+      }
+    ],
+    "analysis": {
+      "riskScore": 0,
+      "warnings": []
+    }
+  },
+  {
+    "id": "1c6984d6-b9e0-462f-8a83-0506be16ba85",
+    "projectId": "74a74089-c00f-4927-8da2-b9c432cefafb",
+    "createdAt": "2025-12-13T16:20:51.109Z",
+    "rootPool": "10.0.0.0/8",
+    "allocations": [
+      {
+        "siteId": "n1",
+        "siteName": "CSE-Lab",
+        "requestedHosts": 120,
+        "assignedCidr": "10.0.0.0/25",
+        "capacity": 126
+      },
+      {
+        "siteId": "n2",
+        "siteName": "Admin-Office",
+        "requestedHosts": 30,
+        "assignedCidr": "10.0.0.192/27",
+        "capacity": 30
+      },
+      {
+        "siteId": "n3",
+        "siteName": "Guest-WiFi",
+        "requestedHosts": 50,
+        "assignedCidr": "10.0.0.128/26",
+        "capacity": 62
+      }
+    ],
+    "available": [
+      {
+        "cidr": "10.0.0.224/27",
+        "start": 167772384,
+        "end": 167772415,
+        "prefix": 27
+      },
+      {
+        "cidr": "10.0.1.0/24",
+        "start": 167772416,
+        "end": 167772671,
+        "prefix": 24
+      },
+      {
+        "cidr": "10.0.2.0/23",
+        "start": 167772672,
+        "end": 167773183,
+        "prefix": 23
+      },
+      {
+        "cidr": "10.0.4.0/22",
+        "start": 167773184,
+        "end": 167774207,
+        "prefix": 22
+      },
+      {
+        "cidr": "10.0.8.0/21",
+        "start": 167774208,
+        "end": 167776255,
+        "prefix": 21
+      },
+      {
+        "cidr": "10.0.16.0/20",
+        "start": 167776256,
+        "end": 167780351,
+        "prefix": 20
+      },
+      {
+        "cidr": "10.0.32.0/19",
+        "start": 167780352,
+        "end": 167788543,
+        "prefix": 19
+      },
+      {
+        "cidr": "10.0.64.0/18",
+        "start": 167788544,
+        "end": 167804927,
+        "prefix": 18
+      },
+      {
+        "cidr": "10.0.128.0/17",
+        "start": 167804928,
+        "end": 167837695,
+        "prefix": 17
+      },
+      {
+        "cidr": "10.1.0.0/16",
+        "start": 167837696,
+        "end": 167903231,
+        "prefix": 16
+      },
+      {
+        "cidr": "10.2.0.0/15",
+        "start": 167903232,
+        "end": 168034303,
+        "prefix": 15
+      },
+      {
+        "cidr": "10.4.0.0/14",
+        "start": 168034304,
+        "end": 168296447,
+        "prefix": 14
+      },
+      {
+        "cidr": "10.8.0.0/13",
+        "start": 168296448,
+        "end": 168820735,
+        "prefix": 13
+      },
+      {
+        "cidr": "10.16.0.0/12",
+        "start": 168820736,
+        "end": 169869311,
+        "prefix": 12
+      },
+      {
+        "cidr": "10.32.0.0/11",
+        "start": 169869312,
+        "end": 171966463,
+        "prefix": 11
+      },
+      {
+        "cidr": "10.64.0.0/10",
+        "start": 171966464,
+        "end": 176160767,
+        "prefix": 10
+      },
+      {
+        "cidr": "10.128.0.0/9",
+        "start": 176160768,
+        "end": 184549375,
+        "prefix": 9
+      }
+    ],
+    "analysis": {
+      "riskScore": 0,
+      "warnings": []
+    }
+  },
+  {
+    "id": "75b8ec15-7cb1-438f-b243-48f35f482375",
+    "projectId": "06b96d6c-1616-435a-9c0c-5b84c3e49694",
+    "createdAt": "2025-12-13T16:22:38.022Z",
+    "rootPool": "10.0.0.0/8",
+    "allocations": [
+      {
+        "siteId": "n1",
+        "siteName": "CSE-Lab",
+        "requestedHosts": 120,
+        "assignedCidr": "10.0.0.0/25",
+        "capacity": 126
+      },
+      {
+        "siteId": "n2",
+        "siteName": "Admin-Office",
+        "requestedHosts": 30,
+        "assignedCidr": "10.0.0.192/27",
+        "capacity": 30
+      },
+      {
+        "siteId": "n3",
+        "siteName": "Guest-WiFi",
+        "requestedHosts": 50,
+        "assignedCidr": "10.0.0.128/26",
+        "capacity": 62
+      }
+    ],
+    "available": [
+      {
+        "cidr": "10.0.0.224/27",
+        "start": 167772384,
+        "end": 167772415,
+        "prefix": 27
+      },
+      {
+        "cidr": "10.0.1.0/24",
+        "start": 167772416,
+        "end": 167772671,
+        "prefix": 24
+      },
+      {
+        "cidr": "10.0.2.0/23",
+        "start": 167772672,
+        "end": 167773183,
+        "prefix": 23
+      },
+      {
+        "cidr": "10.0.4.0/22",
+        "start": 167773184,
+        "end": 167774207,
+        "prefix": 22
+      },
+      {
+        "cidr": "10.0.8.0/21",
+        "start": 167774208,
+        "end": 167776255,
+        "prefix": 21
+      },
+      {
+        "cidr": "10.0.16.0/20",
+        "start": 167776256,
+        "end": 167780351,
+        "prefix": 20
+      },
+      {
+        "cidr": "10.0.32.0/19",
+        "start": 167780352,
+        "end": 167788543,
+        "prefix": 19
+      },
+      {
+        "cidr": "10.0.64.0/18",
+        "start": 167788544,
+        "end": 167804927,
+        "prefix": 18
+      },
+      {
+        "cidr": "10.0.128.0/17",
+        "start": 167804928,
+        "end": 167837695,
+        "prefix": 17
+      },
+      {
+        "cidr": "10.1.0.0/16",
+        "start": 167837696,
+        "end": 167903231,
+        "prefix": 16
+      },
+      {
+        "cidr": "10.2.0.0/15",
+        "start": 167903232,
+        "end": 168034303,
+        "prefix": 15
+      },
+      {
+        "cidr": "10.4.0.0/14",
+        "start": 168034304,
+        "end": 168296447,
+        "prefix": 14
+      },
+      {
+        "cidr": "10.8.0.0/13",
+        "start": 168296448,
+        "end": 168820735,
+        "prefix": 13
+      },
+      {
+        "cidr": "10.16.0.0/12",
+        "start": 168820736,
+        "end": 169869311,
+        "prefix": 12
+      },
+      {
+        "cidr": "10.32.0.0/11",
+        "start": 169869312,
+        "end": 171966463,
+        "prefix": 11
+      },
+      {
+        "cidr": "10.64.0.0/10",
+        "start": 171966464,
+        "end": 176160767,
+        "prefix": 10
+      },
+      {
+        "cidr": "10.128.0.0/9",
+        "start": 176160768,
+        "end": 184549375,
+        "prefix": 9
+      }
+    ],
+    "analysis": {
+      "riskScore": 0,
+      "warnings": []
+    }
+  },
+  {
+    "id": "04cfff9c-0adb-4b55-917b-6bb5272c1315",
+    "projectId": "9fcc25e5-d209-4414-a516-cce4996fd9bc",
+    "createdAt": "2025-12-13T16:25:20.330Z",
+    "rootPool": "10.0.0.0/8",
+    "allocations": [
+      {
+        "siteId": "n1",
+        "siteName": "CSE-Lab",
+        "requestedHosts": 120,
+        "assignedCidr": "10.0.0.0/25",
+        "capacity": 126
+      },
+      {
+        "siteId": "n2",
+        "siteName": "Admin-Office",
+        "requestedHosts": 30,
+        "assignedCidr": "10.0.0.192/27",
+        "capacity": 30
+      },
+      {
+        "siteId": "n3",
+        "siteName": "Guest-WiFi",
+        "requestedHosts": 50,
+        "assignedCidr": "10.0.0.128/26",
+        "capacity": 62
+      }
+    ],
+    "available": [
+      {
+        "cidr": "10.0.0.224/27",
+        "start": 167772384,
+        "end": 167772415,
+        "prefix": 27
+      },
+      {
+        "cidr": "10.0.1.0/24",
+        "start": 167772416,
+        "end": 167772671,
+        "prefix": 24
+      },
+      {
+        "cidr": "10.0.2.0/23",
+        "start": 167772672,
+        "end": 167773183,
+        "prefix": 23
+      },
+      {
+        "cidr": "10.0.4.0/22",
+        "start": 167773184,
+        "end": 167774207,
+        "prefix": 22
+      },
+      {
+        "cidr": "10.0.8.0/21",
+        "start": 167774208,
+        "end": 167776255,
+        "prefix": 21
+      },
+      {
+        "cidr": "10.0.16.0/20",
+        "start": 167776256,
+        "end": 167780351,
+        "prefix": 20
+      },
+      {
+        "cidr": "10.0.32.0/19",
+        "start": 167780352,
+        "end": 167788543,
+        "prefix": 19
+      },
+      {
+        "cidr": "10.0.64.0/18",
+        "start": 167788544,
+        "end": 167804927,
+        "prefix": 18
+      },
+      {
+        "cidr": "10.0.128.0/17",
+        "start": 167804928,
+        "end": 167837695,
+        "prefix": 17
+      },
+      {
+        "cidr": "10.1.0.0/16",
+        "start": 167837696,
+        "end": 167903231,
+        "prefix": 16
+      },
+      {
+        "cidr": "10.2.0.0/15",
+        "start": 167903232,
+        "end": 168034303,
+        "prefix": 15
+      },
+      {
+        "cidr": "10.4.0.0/14",
+        "start": 168034304,
+        "end": 168296447,
+        "prefix": 14
+      },
+      {
+        "cidr": "10.8.0.0/13",
+        "start": 168296448,
+        "end": 168820735,
+        "prefix": 13
+      },
+      {
+        "cidr": "10.16.0.0/12",
+        "start": 168820736,
+        "end": 169869311,
+        "prefix": 12
+      },
+      {
+        "cidr": "10.32.0.0/11",
+        "start": 169869312,
+        "end": 171966463,
+        "prefix": 11
+      },
+      {
+        "cidr": "10.64.0.0/10",
+        "start": 171966464,
+        "end": 176160767,
+        "prefix": 10
+      },
+      {
+        "cidr": "10.128.0.0/9",
+        "start": 176160768,
+        "end": 184549375,
+        "prefix": 9
+      }
+    ],
+    "analysis": {
+      "riskScore": 0,
+      "warnings": []
+    }
+  },
+  {
+    "id": "6ffb73aa-3604-418a-885a-8a48de7ea36e",
+    "projectId": "453d34c7-c8c7-4885-91a5-a174addb6db8",
+    "createdAt": "2025-12-13T16:26:01.207Z",
+    "rootPool": "10.0.0.0/8",
+    "allocations": [
+      {
+        "siteId": "n1",
+        "siteName": "CSE-Lab",
+        "requestedHosts": 120,
+        "assignedCidr": "10.0.0.0/25",
+        "capacity": 126
+      },
+      {
+        "siteId": "n2",
+        "siteName": "Admin-Office",
+        "requestedHosts": 30,
+        "assignedCidr": "10.0.0.192/27",
+        "capacity": 30
+      },
+      {
+        "siteId": "n3",
+        "siteName": "Guest-WiFi",
+        "requestedHosts": 50,
+        "assignedCidr": "10.0.0.128/26",
+        "capacity": 62
+      }
+    ],
+    "available": [
+      {
+        "cidr": "10.0.0.224/27",
+        "start": 167772384,
+        "end": 167772415,
+        "prefix": 27
+      },
+      {
+        "cidr": "10.0.1.0/24",
+        "start": 167772416,
+        "end": 167772671,
+        "prefix": 24
+      },
+      {
+        "cidr": "10.0.2.0/23",
+        "start": 167772672,
+        "end": 167773183,
+        "prefix": 23
+      },
+      {
+        "cidr": "10.0.4.0/22",
+        "start": 167773184,
+        "end": 167774207,
+        "prefix": 22
+      },
+      {
+        "cidr": "10.0.8.0/21",
+        "start": 167774208,
+        "end": 167776255,
+        "prefix": 21
+      },
+      {
+        "cidr": "10.0.16.0/20",
+        "start": 167776256,
+        "end": 167780351,
+        "prefix": 20
+      },
+      {
+        "cidr": "10.0.32.0/19",
+        "start": 167780352,
+        "end": 167788543,
+        "prefix": 19
+      },
+      {
+        "cidr": "10.0.64.0/18",
+        "start": 167788544,
+        "end": 167804927,
+        "prefix": 18
+      },
+      {
+        "cidr": "10.0.128.0/17",
+        "start": 167804928,
+        "end": 167837695,
+        "prefix": 17
+      },
+      {
+        "cidr": "10.1.0.0/16",
+        "start": 167837696,
+        "end": 167903231,
+        "prefix": 16
+      },
+      {
+        "cidr": "10.2.0.0/15",
+        "start": 167903232,
+        "end": 168034303,
+        "prefix": 15
+      },
+      {
+        "cidr": "10.4.0.0/14",
+        "start": 168034304,
+        "end": 168296447,
+        "prefix": 14
+      },
+      {
+        "cidr": "10.8.0.0/13",
+        "start": 168296448,
+        "end": 168820735,
+        "prefix": 13
+      },
+      {
+        "cidr": "10.16.0.0/12",
+        "start": 168820736,
+        "end": 169869311,
+        "prefix": 12
+      },
+      {
+        "cidr": "10.32.0.0/11",
+        "start": 169869312,
+        "end": 171966463,
+        "prefix": 11
+      },
+      {
+        "cidr": "10.64.0.0/10",
+        "start": 171966464,
+        "end": 176160767,
+        "prefix": 10
+      },
+      {
+        "cidr": "10.128.0.0/9",
+        "start": 176160768,
+        "end": 184549375,
+        "prefix": 9
+      }
+    ],
+    "analysis": {
+      "riskScore": 0,
+      "warnings": []
+    }
+  },
+  {
+    "id": "be4b5903-4d86-4e3c-980c-4ecca4d13e97",
+    "projectId": "805ff8c0-6267-40bb-a306-9666e027993e",
+    "createdAt": "2025-12-13T16:36:27.965Z",
+    "rootPool": "10.0.0.0/8",
+    "allocations": [
+      {
+        "siteId": "n1",
+        "siteName": "CSE-Lab",
+        "requestedHosts": 120,
+        "assignedCidr": "10.0.0.0/25",
+        "capacity": 126
+      },
+      {
+        "siteId": "n2",
+        "siteName": "Admin-Office",
+        "requestedHosts": 30,
+        "assignedCidr": "10.0.0.192/27",
+        "capacity": 30
+      },
+      {
+        "siteId": "n3",
+        "siteName": "Guest-WiFi",
+        "requestedHosts": 50,
+        "assignedCidr": "10.0.0.128/26",
+        "capacity": 62
+      }
+    ],
+    "available": [
+      {
+        "cidr": "10.0.0.224/27",
+        "start": 167772384,
+        "end": 167772415,
+        "prefix": 27
+      },
+      {
+        "cidr": "10.0.1.0/24",
+        "start": 167772416,
+        "end": 167772671,
+        "prefix": 24
+      },
+      {
+        "cidr": "10.0.2.0/23",
+        "start": 167772672,
+        "end": 167773183,
+        "prefix": 23
+      },
+      {
+        "cidr": "10.0.4.0/22",
+        "start": 167773184,
+        "end": 167774207,
+        "prefix": 22
+      },
+      {
+        "cidr": "10.0.8.0/21",
+        "start": 167774208,
+        "end": 167776255,
+        "prefix": 21
+      },
+      {
+        "cidr": "10.0.16.0/20",
+        "start": 167776256,
+        "end": 167780351,
+        "prefix": 20
+      },
+      {
+        "cidr": "10.0.32.0/19",
+        "start": 167780352,
+        "end": 167788543,
+        "prefix": 19
+      },
+      {
+        "cidr": "10.0.64.0/18",
+        "start": 167788544,
+        "end": 167804927,
+        "prefix": 18
+      },
+      {
+        "cidr": "10.0.128.0/17",
+        "start": 167804928,
+        "end": 167837695,
+        "prefix": 17
+      },
+      {
+        "cidr": "10.1.0.0/16",
+        "start": 167837696,
+        "end": 167903231,
+        "prefix": 16
+      },
+      {
+        "cidr": "10.2.0.0/15",
+        "start": 167903232,
+        "end": 168034303,
+        "prefix": 15
+      },
+      {
+        "cidr": "10.4.0.0/14",
+        "start": 168034304,
+        "end": 168296447,
+        "prefix": 14
+      },
+      {
+        "cidr": "10.8.0.0/13",
+        "start": 168296448,
+        "end": 168820735,
+        "prefix": 13
+      },
+      {
+        "cidr": "10.16.0.0/12",
+        "start": 168820736,
+        "end": 169869311,
+        "prefix": 12
+      },
+      {
+        "cidr": "10.32.0.0/11",
+        "start": 169869312,
+        "end": 171966463,
+        "prefix": 11
+      },
+      {
+        "cidr": "10.64.0.0/10",
+        "start": 171966464,
+        "end": 176160767,
+        "prefix": 10
+      },
+      {
+        "cidr": "10.128.0.0/9",
+        "start": 176160768,
+        "end": 184549375,
+        "prefix": 9
+      }
+    ],
+    "analysis": {
+      "riskScore": 0,
+      "warnings": []
+    }
+  },
+  {
+    "id": "e44eba9c-d44d-4f86-ba24-23cde2d672d8",
+    "projectId": "8e43e891-efa2-4b34-af75-924f2cfe4424",
+    "createdAt": "2025-12-13T16:39:08.580Z",
+    "rootPool": "10.0.0.0/8",
+    "allocations": [
+      {
+        "siteId": "n1",
+        "siteName": "CSE-Lab",
+        "requestedHosts": 120,
+        "assignedCidr": "10.0.0.0/25",
+        "capacity": 126
+      },
+      {
+        "siteId": "n2",
+        "siteName": "Admin-Office",
+        "requestedHosts": 30,
+        "assignedCidr": "10.0.0.192/27",
+        "capacity": 30
+      },
+      {
+        "siteId": "n3",
+        "siteName": "Guest-WiFi",
+        "requestedHosts": 50,
+        "assignedCidr": "10.0.0.128/26",
+        "capacity": 62
+      }
+    ],
+    "available": [
+      {
+        "cidr": "10.0.0.224/27",
+        "start": 167772384,
+        "end": 167772415,
+        "prefix": 27
+      },
+      {
+        "cidr": "10.0.1.0/24",
+        "start": 167772416,
+        "end": 167772671,
+        "prefix": 24
+      },
+      {
+        "cidr": "10.0.2.0/23",
+        "start": 167772672,
+        "end": 167773183,
+        "prefix": 23
+      },
+      {
+        "cidr": "10.0.4.0/22",
+        "start": 167773184,
+        "end": 167774207,
+        "prefix": 22
+      },
+      {
+        "cidr": "10.0.8.0/21",
+        "start": 167774208,
+        "end": 167776255,
+        "prefix": 21
+      },
+      {
+        "cidr": "10.0.16.0/20",
+        "start": 167776256,
+        "end": 167780351,
+        "prefix": 20
+      },
+      {
+        "cidr": "10.0.32.0/19",
+        "start": 167780352,
+        "end": 167788543,
+        "prefix": 19
+      },
+      {
+        "cidr": "10.0.64.0/18",
+        "start": 167788544,
+        "end": 167804927,
+        "prefix": 18
+      },
+      {
+        "cidr": "10.0.128.0/17",
+        "start": 167804928,
+        "end": 167837695,
+        "prefix": 17
+      },
+      {
+        "cidr": "10.1.0.0/16",
+        "start": 167837696,
+        "end": 167903231,
+        "prefix": 16
+      },
+      {
+        "cidr": "10.2.0.0/15",
+        "start": 167903232,
+        "end": 168034303,
+        "prefix": 15
+      },
+      {
+        "cidr": "10.4.0.0/14",
+        "start": 168034304,
+        "end": 168296447,
+        "prefix": 14
+      },
+      {
+        "cidr": "10.8.0.0/13",
+        "start": 168296448,
+        "end": 168820735,
+        "prefix": 13
+      },
+      {
+        "cidr": "10.16.0.0/12",
+        "start": 168820736,
+        "end": 169869311,
+        "prefix": 12
+      },
+      {
+        "cidr": "10.32.0.0/11",
+        "start": 169869312,
+        "end": 171966463,
+        "prefix": 11
+      },
+      {
+        "cidr": "10.64.0.0/10",
+        "start": 171966464,
+        "end": 176160767,
+        "prefix": 10
+      },
+      {
+        "cidr": "10.128.0.0/9",
+        "start": 176160768,
+        "end": 184549375,
+        "prefix": 9
+      }
+    ],
+    "analysis": {
+      "riskScore": 0,
+      "warnings": []
+    }
+  },
+  {
+    "id": "514a9543-fa3a-47fa-91d3-eb72a85d2ea0",
+    "projectId": "020c07a7-0945-4614-b12f-6acecfb0c9da",
+    "createdAt": "2025-12-13T16:40:00.719Z",
+    "rootPool": "10.0.0.0/8",
+    "allocations": [
+      {
+        "siteId": "n1",
+        "siteName": "CSE-Lab",
+        "requestedHosts": 120,
+        "assignedCidr": "10.0.0.0/25",
+        "capacity": 126
+      },
+      {
+        "siteId": "n2",
+        "siteName": "Admin-Office",
+        "requestedHosts": 30,
+        "assignedCidr": "10.0.0.192/27",
+        "capacity": 30
+      },
+      {
+        "siteId": "n3",
+        "siteName": "Guest-WiFi",
+        "requestedHosts": 50,
+        "assignedCidr": "10.0.0.128/26",
+        "capacity": 62
+      }
+    ],
+    "available": [
+      {
+        "cidr": "10.0.0.224/27",
+        "start": 167772384,
+        "end": 167772415,
+        "prefix": 27
+      },
+      {
+        "cidr": "10.0.1.0/24",
+        "start": 167772416,
+        "end": 167772671,
+        "prefix": 24
+      },
+      {
+        "cidr": "10.0.2.0/23",
+        "start": 167772672,
+        "end": 167773183,
+        "prefix": 23
+      },
+      {
+        "cidr": "10.0.4.0/22",
+        "start": 167773184,
+        "end": 167774207,
+        "prefix": 22
+      },
+      {
+        "cidr": "10.0.8.0/21",
+        "start": 167774208,
+        "end": 167776255,
+        "prefix": 21
+      },
+      {
+        "cidr": "10.0.16.0/20",
+        "start": 167776256,
+        "end": 167780351,
+        "prefix": 20
+      },
+      {
+        "cidr": "10.0.32.0/19",
+        "start": 167780352,
+        "end": 167788543,
+        "prefix": 19
+      },
+      {
+        "cidr": "10.0.64.0/18",
+        "start": 167788544,
+        "end": 167804927,
+        "prefix": 18
+      },
+      {
+        "cidr": "10.0.128.0/17",
+        "start": 167804928,
+        "end": 167837695,
+        "prefix": 17
+      },
+      {
+        "cidr": "10.1.0.0/16",
+        "start": 167837696,
+        "end": 167903231,
+        "prefix": 16
+      },
+      {
+        "cidr": "10.2.0.0/15",
+        "start": 167903232,
+        "end": 168034303,
+        "prefix": 15
+      },
+      {
+        "cidr": "10.4.0.0/14",
+        "start": 168034304,
+        "end": 168296447,
+        "prefix": 14
+      },
+      {
+        "cidr": "10.8.0.0/13",
+        "start": 168296448,
+        "end": 168820735,
+        "prefix": 13
+      },
+      {
+        "cidr": "10.16.0.0/12",
+        "start": 168820736,
+        "end": 169869311,
+        "prefix": 12
+      },
+      {
+        "cidr": "10.32.0.0/11",
+        "start": 169869312,
+        "end": 171966463,
+        "prefix": 11
+      },
+      {
+        "cidr": "10.64.0.0/10",
+        "start": 171966464,
+        "end": 176160767,
+        "prefix": 10
+      },
+      {
+        "cidr": "10.128.0.0/9",
+        "start": 176160768,
+        "end": 184549375,
+        "prefix": 9
+      }
+    ],
+    "analysis": {
+      "riskScore": 0,
+      "warnings": []
+    }
+  },
+  {
+    "id": "f12a2b3d-8155-4498-829c-660ca4ea266f",
+    "projectId": "5b16b3b0-a936-421f-a69a-de812efc0cd9",
+    "createdAt": "2025-12-13T16:43:40.863Z",
+    "rootPool": "10.0.0.0/8",
+    "allocations": [
+      {
+        "siteId": "n1",
+        "siteName": "CSE-Lab",
+        "requestedHosts": 120,
+        "assignedCidr": "10.0.0.0/25",
+        "capacity": 126
+      },
+      {
+        "siteId": "n2",
+        "siteName": "Admin-Office",
+        "requestedHosts": 30,
+        "assignedCidr": "10.0.0.192/27",
+        "capacity": 30
+      },
+      {
+        "siteId": "n3",
+        "siteName": "Guest-WiFi",
+        "requestedHosts": 50,
+        "assignedCidr": "10.0.0.128/26",
+        "capacity": 62
+      }
+    ],
+    "available": [
+      {
+        "cidr": "10.0.0.224/27",
+        "start": 167772384,
+        "end": 167772415,
+        "prefix": 27
+      },
+      {
+        "cidr": "10.0.1.0/24",
+        "start": 167772416,
+        "end": 167772671,
+        "prefix": 24
+      },
+      {
+        "cidr": "10.0.2.0/23",
+        "start": 167772672,
+        "end": 167773183,
+        "prefix": 23
+      },
+      {
+        "cidr": "10.0.4.0/22",
+        "start": 167773184,
+        "end": 167774207,
+        "prefix": 22
+      },
+      {
+        "cidr": "10.0.8.0/21",
+        "start": 167774208,
+        "end": 167776255,
+        "prefix": 21
+      },
+      {
+        "cidr": "10.0.16.0/20",
+        "start": 167776256,
+        "end": 167780351,
+        "prefix": 20
+      },
+      {
+        "cidr": "10.0.32.0/19",
+        "start": 167780352,
+        "end": 167788543,
+        "prefix": 19
+      },
+      {
+        "cidr": "10.0.64.0/18",
+        "start": 167788544,
+        "end": 167804927,
+        "prefix": 18
+      },
+      {
+        "cidr": "10.0.128.0/17",
+        "start": 167804928,
+        "end": 167837695,
+        "prefix": 17
+      },
+      {
+        "cidr": "10.1.0.0/16",
+        "start": 167837696,
+        "end": 167903231,
+        "prefix": 16
+      },
+      {
+        "cidr": "10.2.0.0/15",
+        "start": 167903232,
+        "end": 168034303,
+        "prefix": 15
+      },
+      {
+        "cidr": "10.4.0.0/14",
+        "start": 168034304,
+        "end": 168296447,
+        "prefix": 14
+      },
+      {
+        "cidr": "10.8.0.0/13",
+        "start": 168296448,
+        "end": 168820735,
+        "prefix": 13
+      },
+      {
+        "cidr": "10.16.0.0/12",
+        "start": 168820736,
+        "end": 169869311,
+        "prefix": 12
+      },
+      {
+        "cidr": "10.32.0.0/11",
+        "start": 169869312,
+        "end": 171966463,
+        "prefix": 11
+      },
+      {
+        "cidr": "10.64.0.0/10",
+        "start": 171966464,
+        "end": 176160767,
+        "prefix": 10
+      },
+      {
+        "cidr": "10.128.0.0/9",
+        "start": 176160768,
+        "end": 184549375,
+        "prefix": 9
+      }
+    ],
+    "analysis": {
+      "riskScore": 0,
+      "warnings": []
+    }
+  },
+  {
+    "id": "785a7b18-dd67-432a-bdec-0b263f60187a",
+    "projectId": "633f8970-de7c-4395-bf15-c94e3e793f23",
+    "createdAt": "2025-12-13T16:45:28.984Z",
+    "rootPool": "10.0.0.0/8",
+    "allocations": [
+      {
+        "siteId": "n1",
+        "siteName": "CSE-Lab",
+        "requestedHosts": 120,
+        "assignedCidr": "10.0.0.0/25",
+        "capacity": 126
+      },
+      {
+        "siteId": "n2",
+        "siteName": "Admin-Office",
+        "requestedHosts": 30,
+        "assignedCidr": "10.0.0.192/27",
+        "capacity": 30
+      },
+      {
+        "siteId": "n3",
+        "siteName": "Guest-WiFi",
+        "requestedHosts": 50,
+        "assignedCidr": "10.0.0.128/26",
+        "capacity": 62
+      }
+    ],
+    "available": [
+      {
+        "cidr": "10.0.0.224/27",
+        "start": 167772384,
+        "end": 167772415,
+        "prefix": 27
+      },
+      {
+        "cidr": "10.0.1.0/24",
+        "start": 167772416,
+        "end": 167772671,
+        "prefix": 24
+      },
+      {
+        "cidr": "10.0.2.0/23",
+        "start": 167772672,
+        "end": 167773183,
+        "prefix": 23
+      },
+      {
+        "cidr": "10.0.4.0/22",
+        "start": 167773184,
+        "end": 167774207,
+        "prefix": 22
+      },
+      {
+        "cidr": "10.0.8.0/21",
+        "start": 167774208,
+        "end": 167776255,
+        "prefix": 21
+      },
+      {
+        "cidr": "10.0.16.0/20",
+        "start": 167776256,
+        "end": 167780351,
+        "prefix": 20
+      },
+      {
+        "cidr": "10.0.32.0/19",
+        "start": 167780352,
+        "end": 167788543,
+        "prefix": 19
+      },
+      {
+        "cidr": "10.0.64.0/18",
+        "start": 167788544,
+        "end": 167804927,
+        "prefix": 18
+      },
+      {
+        "cidr": "10.0.128.0/17",
+        "start": 167804928,
+        "end": 167837695,
+        "prefix": 17
+      },
+      {
+        "cidr": "10.1.0.0/16",
+        "start": 167837696,
+        "end": 167903231,
+        "prefix": 16
+      },
+      {
+        "cidr": "10.2.0.0/15",
+        "start": 167903232,
+        "end": 168034303,
+        "prefix": 15
+      },
+      {
+        "cidr": "10.4.0.0/14",
+        "start": 168034304,
+        "end": 168296447,
+        "prefix": 14
+      },
+      {
+        "cidr": "10.8.0.0/13",
+        "start": 168296448,
+        "end": 168820735,
+        "prefix": 13
+      },
+      {
+        "cidr": "10.16.0.0/12",
+        "start": 168820736,
+        "end": 169869311,
+        "prefix": 12
+      },
+      {
+        "cidr": "10.32.0.0/11",
+        "start": 169869312,
+        "end": 171966463,
+        "prefix": 11
+      },
+      {
+        "cidr": "10.64.0.0/10",
+        "start": 171966464,
+        "end": 176160767,
+        "prefix": 10
+      },
+      {
+        "cidr": "10.128.0.0/9",
+        "start": 176160768,
+        "end": 184549375,
+        "prefix": 9
+      }
+    ],
+    "analysis": {
+      "riskScore": 0,
+      "warnings": []
+    }
+  },
+  {
+    "id": "7bb2e5f1-eb45-4283-9fc4-8bd834a51cbc",
+    "projectId": "11067649-e0d2-484e-afa5-37036b4cee80",
+    "createdAt": "2025-12-13T16:46:10.057Z",
+    "rootPool": "10.0.0.0/8",
+    "allocations": [
+      {
+        "siteId": "n1",
+        "siteName": "CSE-Lab",
+        "requestedHosts": 120,
+        "assignedCidr": "10.0.0.0/25",
+        "capacity": 126
+      },
+      {
+        "siteId": "n2",
+        "siteName": "Admin-Office",
+        "requestedHosts": 30,
+        "assignedCidr": "10.0.0.192/27",
+        "capacity": 30
+      },
+      {
+        "siteId": "n3",
+        "siteName": "Guest-WiFi",
+        "requestedHosts": 50,
+        "assignedCidr": "10.0.0.128/26",
+        "capacity": 62
+      }
+    ],
+    "available": [
+      {
+        "cidr": "10.0.0.224/27",
+        "start": 167772384,
+        "end": 167772415,
+        "prefix": 27
+      },
+      {
+        "cidr": "10.0.1.0/24",
+        "start": 167772416,
+        "end": 167772671,
+        "prefix": 24
+      },
+      {
+        "cidr": "10.0.2.0/23",
+        "start": 167772672,
+        "end": 167773183,
+        "prefix": 23
+      },
+      {
+        "cidr": "10.0.4.0/22",
+        "start": 167773184,
+        "end": 167774207,
+        "prefix": 22
+      },
+      {
+        "cidr": "10.0.8.0/21",
+        "start": 167774208,
+        "end": 167776255,
+        "prefix": 21
+      },
+      {
+        "cidr": "10.0.16.0/20",
+        "start": 167776256,
+        "end": 167780351,
+        "prefix": 20
+      },
+      {
+        "cidr": "10.0.32.0/19",
+        "start": 167780352,
+        "end": 167788543,
+        "prefix": 19
+      },
+      {
+        "cidr": "10.0.64.0/18",
+        "start": 167788544,
+        "end": 167804927,
+        "prefix": 18
+      },
+      {
+        "cidr": "10.0.128.0/17",
+        "start": 167804928,
+        "end": 167837695,
+        "prefix": 17
+      },
+      {
+        "cidr": "10.1.0.0/16",
+        "start": 167837696,
+        "end": 167903231,
+        "prefix": 16
+      },
+      {
+        "cidr": "10.2.0.0/15",
+        "start": 167903232,
+        "end": 168034303,
+        "prefix": 15
+      },
+      {
+        "cidr": "10.4.0.0/14",
+        "start": 168034304,
+        "end": 168296447,
+        "prefix": 14
+      },
+      {
+        "cidr": "10.8.0.0/13",
+        "start": 168296448,
+        "end": 168820735,
+        "prefix": 13
+      },
+      {
+        "cidr": "10.16.0.0/12",
+        "start": 168820736,
+        "end": 169869311,
+        "prefix": 12
+      },
+      {
+        "cidr": "10.32.0.0/11",
+        "start": 169869312,
+        "end": 171966463,
+        "prefix": 11
+      },
+      {
+        "cidr": "10.64.0.0/10",
+        "start": 171966464,
+        "end": 176160767,
+        "prefix": 10
+      },
+      {
+        "cidr": "10.128.0.0/9",
+        "start": 176160768,
+        "end": 184549375,
+        "prefix": 9
+      }
+    ],
+    "analysis": {
+      "riskScore": 0,
+      "warnings": []
+    }
+  },
+  {
+    "id": "70d833f8-41bf-4149-892b-bbf203b61f9e",
+    "projectId": "275e71c8-a80e-4b3b-98c8-a312a5502a80",
+    "createdAt": "2025-12-13T16:57:58.923Z",
+    "rootPool": "10.0.0.0/8",
+    "allocations": [
+      {
+        "siteId": "n1",
+        "siteName": "CSE-Lab",
+        "requestedHosts": 120,
+        "assignedCidr": "10.0.0.0/25",
+        "capacity": 126
+      },
+      {
+        "siteId": "n2",
+        "siteName": "Admin-Office",
+        "requestedHosts": 30,
+        "assignedCidr": "10.0.0.192/27",
+        "capacity": 30
+      },
+      {
+        "siteId": "n3",
+        "siteName": "Guest-WiFi",
+        "requestedHosts": 50,
+        "assignedCidr": "10.0.0.128/26",
+        "capacity": 62
+      }
+    ],
+    "available": [
+      {
+        "cidr": "10.0.0.224/27",
+        "start": 167772384,
+        "end": 167772415,
+        "prefix": 27
+      },
+      {
+        "cidr": "10.0.1.0/24",
+        "start": 167772416,
+        "end": 167772671,
+        "prefix": 24
+      },
+      {
+        "cidr": "10.0.2.0/23",
+        "start": 167772672,
+        "end": 167773183,
+        "prefix": 23
+      },
+      {
+        "cidr": "10.0.4.0/22",
+        "start": 167773184,
+        "end": 167774207,
+        "prefix": 22
+      },
+      {
+        "cidr": "10.0.8.0/21",
+        "start": 167774208,
+        "end": 167776255,
+        "prefix": 21
+      },
+      {
+        "cidr": "10.0.16.0/20",
+        "start": 167776256,
+        "end": 167780351,
+        "prefix": 20
+      },
+      {
+        "cidr": "10.0.32.0/19",
+        "start": 167780352,
+        "end": 167788543,
+        "prefix": 19
+      },
+      {
+        "cidr": "10.0.64.0/18",
+        "start": 167788544,
+        "end": 167804927,
+        "prefix": 18
+      },
+      {
+        "cidr": "10.0.128.0/17",
+        "start": 167804928,
+        "end": 167837695,
+        "prefix": 17
+      },
+      {
+        "cidr": "10.1.0.0/16",
+        "start": 167837696,
+        "end": 167903231,
+        "prefix": 16
+      },
+      {
+        "cidr": "10.2.0.0/15",
+        "start": 167903232,
+        "end": 168034303,
+        "prefix": 15
+      },
+      {
+        "cidr": "10.4.0.0/14",
+        "start": 168034304,
+        "end": 168296447,
+        "prefix": 14
+      },
+      {
+        "cidr": "10.8.0.0/13",
+        "start": 168296448,
+        "end": 168820735,
+        "prefix": 13
+      },
+      {
+        "cidr": "10.16.0.0/12",
+        "start": 168820736,
+        "end": 169869311,
+        "prefix": 12
+      },
+      {
+        "cidr": "10.32.0.0/11",
+        "start": 169869312,
+        "end": 171966463,
+        "prefix": 11
+      },
+      {
+        "cidr": "10.64.0.0/10",
+        "start": 171966464,
+        "end": 176160767,
+        "prefix": 10
+      },
+      {
+        "cidr": "10.128.0.0/9",
+        "start": 176160768,
+        "end": 184549375,
+        "prefix": 9
+      }
+    ],
+    "analysis": {
+      "riskScore": 0,
+      "warnings": []
+    }
+  },
+  {
+    "id": "0921c4ad-027d-4e53-94ca-34256340df3c",
+    "projectId": "e6976bc7-d23a-4d85-826b-72fd7348c086",
+    "createdAt": "2025-12-13T16:59:56.745Z",
+    "rootPool": "10.0.0.0/8",
+    "allocations": [
+      {
+        "siteId": "n1",
+        "siteName": "CSE-Lab",
+        "requestedHosts": 120,
+        "assignedCidr": "10.0.0.0/25",
+        "capacity": 126
+      },
+      {
+        "siteId": "n2",
+        "siteName": "Admin-Office",
+        "requestedHosts": 30,
+        "assignedCidr": "10.0.0.192/27",
+        "capacity": 30
+      },
+      {
+        "siteId": "n3",
+        "siteName": "Guest-WiFi",
+        "requestedHosts": 50,
+        "assignedCidr": "10.0.0.128/26",
+        "capacity": 62
+      }
+    ],
+    "available": [
+      {
+        "cidr": "10.0.0.224/27",
+        "start": 167772384,
+        "end": 167772415,
+        "prefix": 27
+      },
+      {
+        "cidr": "10.0.1.0/24",
+        "start": 167772416,
+        "end": 167772671,
+        "prefix": 24
+      },
+      {
+        "cidr": "10.0.2.0/23",
+        "start": 167772672,
+        "end": 167773183,
+        "prefix": 23
+      },
+      {
+        "cidr": "10.0.4.0/22",
+        "start": 167773184,
+        "end": 167774207,
+        "prefix": 22
+      },
+      {
+        "cidr": "10.0.8.0/21",
+        "start": 167774208,
+        "end": 167776255,
+        "prefix": 21
+      },
+      {
+        "cidr": "10.0.16.0/20",
+        "start": 167776256,
+        "end": 167780351,
+        "prefix": 20
+      },
+      {
+        "cidr": "10.0.32.0/19",
+        "start": 167780352,
+        "end": 167788543,
+        "prefix": 19
+      },
+      {
+        "cidr": "10.0.64.0/18",
+        "start": 167788544,
+        "end": 167804927,
+        "prefix": 18
+      },
+      {
+        "cidr": "10.0.128.0/17",
+        "start": 167804928,
+        "end": 167837695,
+        "prefix": 17
+      },
+      {
+        "cidr": "10.1.0.0/16",
+        "start": 167837696,
+        "end": 167903231,
+        "prefix": 16
+      },
+      {
+        "cidr": "10.2.0.0/15",
+        "start": 167903232,
+        "end": 168034303,
+        "prefix": 15
+      },
+      {
+        "cidr": "10.4.0.0/14",
+        "start": 168034304,
+        "end": 168296447,
+        "prefix": 14
+      },
+      {
+        "cidr": "10.8.0.0/13",
+        "start": 168296448,
+        "end": 168820735,
+        "prefix": 13
+      },
+      {
+        "cidr": "10.16.0.0/12",
+        "start": 168820736,
+        "end": 169869311,
+        "prefix": 12
+      },
+      {
+        "cidr": "10.32.0.0/11",
+        "start": 169869312,
+        "end": 171966463,
+        "prefix": 11
+      },
+      {
+        "cidr": "10.64.0.0/10",
+        "start": 171966464,
+        "end": 176160767,
+        "prefix": 10
+      },
+      {
+        "cidr": "10.128.0.0/9",
+        "start": 176160768,
+        "end": 184549375,
+        "prefix": 9
+      }
+    ],
+    "analysis": {
+      "riskScore": 0,
+      "warnings": []
+    }
+  },
+  {
+    "id": "69a68f47-6ef3-47a6-a60e-ba96ce057f9c",
+    "projectId": "0a1e98ac-7ddc-419a-b93e-2ad4876ceeb9",
+    "createdAt": "2025-12-13T17:00:25.967Z",
+    "rootPool": "10.0.0.0/8",
+    "allocations": [
+      {
+        "siteId": "n1",
+        "siteName": "CSE-Lab",
+        "requestedHosts": 120,
+        "assignedCidr": "10.0.0.0/25",
+        "capacity": 126
+      },
+      {
+        "siteId": "n2",
+        "siteName": "Admin-Office",
+        "requestedHosts": 30,
+        "assignedCidr": "10.0.0.192/27",
+        "capacity": 30
+      },
+      {
+        "siteId": "n3",
+        "siteName": "Guest-WiFi",
+        "requestedHosts": 50,
+        "assignedCidr": "10.0.0.128/26",
+        "capacity": 62
+      }
+    ],
+    "available": [
+      {
+        "cidr": "10.0.0.224/27",
+        "start": 167772384,
+        "end": 167772415,
+        "prefix": 27
+      },
+      {
+        "cidr": "10.0.1.0/24",
+        "start": 167772416,
+        "end": 167772671,
+        "prefix": 24
+      },
+      {
+        "cidr": "10.0.2.0/23",
+        "start": 167772672,
+        "end": 167773183,
+        "prefix": 23
+      },
+      {
+        "cidr": "10.0.4.0/22",
+        "start": 167773184,
+        "end": 167774207,
+        "prefix": 22
+      },
+      {
+        "cidr": "10.0.8.0/21",
+        "start": 167774208,
+        "end": 167776255,
+        "prefix": 21
+      },
+      {
+        "cidr": "10.0.16.0/20",
+        "start": 167776256,
+        "end": 167780351,
+        "prefix": 20
+      },
+      {
+        "cidr": "10.0.32.0/19",
+        "start": 167780352,
+        "end": 167788543,
+        "prefix": 19
+      },
+      {
+        "cidr": "10.0.64.0/18",
+        "start": 167788544,
+        "end": 167804927,
+        "prefix": 18
+      },
+      {
+        "cidr": "10.0.128.0/17",
+        "start": 167804928,
+        "end": 167837695,
+        "prefix": 17
+      },
+      {
+        "cidr": "10.1.0.0/16",
+        "start": 167837696,
+        "end": 167903231,
+        "prefix": 16
+      },
+      {
+        "cidr": "10.2.0.0/15",
+        "start": 167903232,
+        "end": 168034303,
+        "prefix": 15
+      },
+      {
+        "cidr": "10.4.0.0/14",
+        "start": 168034304,
+        "end": 168296447,
+        "prefix": 14
+      },
+      {
+        "cidr": "10.8.0.0/13",
+        "start": 168296448,
+        "end": 168820735,
+        "prefix": 13
+      },
+      {
+        "cidr": "10.16.0.0/12",
+        "start": 168820736,
+        "end": 169869311,
+        "prefix": 12
+      },
+      {
+        "cidr": "10.32.0.0/11",
+        "start": 169869312,
+        "end": 171966463,
+        "prefix": 11
+      },
+      {
+        "cidr": "10.64.0.0/10",
+        "start": 171966464,
+        "end": 176160767,
+        "prefix": 10
+      },
+      {
+        "cidr": "10.128.0.0/9",
+        "start": 176160768,
+        "end": 184549375,
+        "prefix": 9
+      }
+    ],
+    "analysis": {
+      "riskScore": 0,
+      "warnings": []
+    }
+  },
+  {
+    "id": "796878d2-9550-44f7-8c25-e625bdf7034d",
+    "projectId": "a37214fb-f1f6-40af-baee-dd0fa5e8e84d",
+    "createdAt": "2025-12-13T17:00:47.659Z",
+    "rootPool": "10.0.0.0/8",
+    "allocations": [
+      {
+        "siteId": "n1",
+        "siteName": "CSE-Lab",
+        "requestedHosts": 120,
+        "assignedCidr": "10.0.0.0/25",
+        "capacity": 126
+      },
+      {
+        "siteId": "n2",
+        "siteName": "Admin-Office",
+        "requestedHosts": 30,
+        "assignedCidr": "10.0.0.192/27",
+        "capacity": 30
+      },
+      {
+        "siteId": "n3",
+        "siteName": "Guest-WiFi",
+        "requestedHosts": 50,
+        "assignedCidr": "10.0.0.128/26",
+        "capacity": 62
+      }
+    ],
+    "available": [
+      {
+        "cidr": "10.0.0.224/27",
+        "start": 167772384,
+        "end": 167772415,
+        "prefix": 27
+      },
+      {
+        "cidr": "10.0.1.0/24",
+        "start": 167772416,
+        "end": 167772671,
+        "prefix": 24
+      },
+      {
+        "cidr": "10.0.2.0/23",
+        "start": 167772672,
+        "end": 167773183,
+        "prefix": 23
+      },
+      {
+        "cidr": "10.0.4.0/22",
+        "start": 167773184,
+        "end": 167774207,
+        "prefix": 22
+      },
+      {
+        "cidr": "10.0.8.0/21",
+        "start": 167774208,
+        "end": 167776255,
+        "prefix": 21
+      },
+      {
+        "cidr": "10.0.16.0/20",
+        "start": 167776256,
+        "end": 167780351,
+        "prefix": 20
+      },
+      {
+        "cidr": "10.0.32.0/19",
+        "start": 167780352,
+        "end": 167788543,
+        "prefix": 19
+      },
+      {
+        "cidr": "10.0.64.0/18",
+        "start": 167788544,
+        "end": 167804927,
+        "prefix": 18
+      },
+      {
+        "cidr": "10.0.128.0/17",
+        "start": 167804928,
+        "end": 167837695,
+        "prefix": 17
+      },
+      {
+        "cidr": "10.1.0.0/16",
+        "start": 167837696,
+        "end": 167903231,
+        "prefix": 16
+      },
+      {
+        "cidr": "10.2.0.0/15",
+        "start": 167903232,
+        "end": 168034303,
+        "prefix": 15
+      },
+      {
+        "cidr": "10.4.0.0/14",
+        "start": 168034304,
+        "end": 168296447,
+        "prefix": 14
+      },
+      {
+        "cidr": "10.8.0.0/13",
+        "start": 168296448,
+        "end": 168820735,
+        "prefix": 13
+      },
+      {
+        "cidr": "10.16.0.0/12",
+        "start": 168820736,
+        "end": 169869311,
+        "prefix": 12
+      },
+      {
+        "cidr": "10.32.0.0/11",
+        "start": 169869312,
+        "end": 171966463,
+        "prefix": 11
+      },
+      {
+        "cidr": "10.64.0.0/10",
+        "start": 171966464,
+        "end": 176160767,
+        "prefix": 10
+      },
+      {
+        "cidr": "10.128.0.0/9",
+        "start": 176160768,
+        "end": 184549375,
+        "prefix": 9
+      }
+    ],
+    "analysis": {
+      "riskScore": 0,
+      "warnings": []
+    }
+  },
+  {
+    "id": "8de13f3a-36bf-4438-a28d-41946e7a98ab",
+    "projectId": "fb8293a4-b891-4d47-9572-b335eaae9a6c",
+    "createdAt": "2025-12-13T17:02:37.975Z",
+    "rootPool": "10.0.0.0/8",
+    "allocations": [
+      {
+        "siteId": "n1",
+        "siteName": "CSE-Lab",
+        "requestedHosts": 120,
+        "assignedCidr": "10.0.0.0/25",
+        "capacity": 126
+      },
+      {
+        "siteId": "n2",
+        "siteName": "Admin-Office",
+        "requestedHosts": 30,
+        "assignedCidr": "10.0.0.192/27",
+        "capacity": 30
+      },
+      {
+        "siteId": "n3",
+        "siteName": "Guest-WiFi",
+        "requestedHosts": 50,
+        "assignedCidr": "10.0.0.128/26",
+        "capacity": 62
+      }
+    ],
+    "available": [
+      {
+        "cidr": "10.0.0.224/27",
+        "start": 167772384,
+        "end": 167772415,
+        "prefix": 27
+      },
+      {
+        "cidr": "10.0.1.0/24",
+        "start": 167772416,
+        "end": 167772671,
+        "prefix": 24
+      },
+      {
+        "cidr": "10.0.2.0/23",
+        "start": 167772672,
+        "end": 167773183,
+        "prefix": 23
+      },
+      {
+        "cidr": "10.0.4.0/22",
+        "start": 167773184,
+        "end": 167774207,
+        "prefix": 22
+      },
+      {
+        "cidr": "10.0.8.0/21",
+        "start": 167774208,
+        "end": 167776255,
+        "prefix": 21
+      },
+      {
+        "cidr": "10.0.16.0/20",
+        "start": 167776256,
+        "end": 167780351,
+        "prefix": 20
+      },
+      {
+        "cidr": "10.0.32.0/19",
+        "start": 167780352,
+        "end": 167788543,
+        "prefix": 19
+      },
+      {
+        "cidr": "10.0.64.0/18",
+        "start": 167788544,
+        "end": 167804927,
+        "prefix": 18
+      },
+      {
+        "cidr": "10.0.128.0/17",
+        "start": 167804928,
+        "end": 167837695,
+        "prefix": 17
+      },
+      {
+        "cidr": "10.1.0.0/16",
+        "start": 167837696,
+        "end": 167903231,
+        "prefix": 16
+      },
+      {
+        "cidr": "10.2.0.0/15",
+        "start": 167903232,
+        "end": 168034303,
+        "prefix": 15
+      },
+      {
+        "cidr": "10.4.0.0/14",
+        "start": 168034304,
+        "end": 168296447,
+        "prefix": 14
+      },
+      {
+        "cidr": "10.8.0.0/13",
+        "start": 168296448,
+        "end": 168820735,
+        "prefix": 13
+      },
+      {
+        "cidr": "10.16.0.0/12",
+        "start": 168820736,
+        "end": 169869311,
+        "prefix": 12
+      },
+      {
+        "cidr": "10.32.0.0/11",
+        "start": 169869312,
+        "end": 171966463,
+        "prefix": 11
+      },
+      {
+        "cidr": "10.64.0.0/10",
+        "start": 171966464,
+        "end": 176160767,
+        "prefix": 10
+      },
+      {
+        "cidr": "10.128.0.0/9",
+        "start": 176160768,
+        "end": 184549375,
+        "prefix": 9
+      }
+    ],
+    "analysis": {
+      "riskScore": 0,
+      "warnings": []
+    }
+  },
+  {
+    "id": "53eec50c-e082-4b97-9255-4dec7b085db3",
+    "projectId": "4df74178-250b-4aa5-8ed2-ec3eea1c4586",
+    "createdAt": "2025-12-13T17:09:54.835Z",
+    "rootPool": "10.0.0.0/8",
+    "allocations": [
+      {
+        "siteId": "n1",
+        "siteName": "CSE-Lab",
+        "requestedHosts": 120,
+        "assignedCidr": "10.0.0.0/25",
+        "capacity": 126
+      },
+      {
+        "siteId": "n2",
+        "siteName": "Admin-Office",
+        "requestedHosts": 30,
+        "assignedCidr": "10.0.0.192/27",
+        "capacity": 30
+      },
+      {
+        "siteId": "n3",
+        "siteName": "Guest-WiFi",
+        "requestedHosts": 50,
+        "assignedCidr": "10.0.0.128/26",
+        "capacity": 62
+      }
+    ],
+    "available": [
+      {
+        "cidr": "10.0.0.224/27",
+        "start": 167772384,
+        "end": 167772415,
+        "prefix": 27
+      },
+      {
+        "cidr": "10.0.1.0/24",
+        "start": 167772416,
+        "end": 167772671,
+        "prefix": 24
+      },
+      {
+        "cidr": "10.0.2.0/23",
+        "start": 167772672,
+        "end": 167773183,
+        "prefix": 23
+      },
+      {
+        "cidr": "10.0.4.0/22",
+        "start": 167773184,
+        "end": 167774207,
+        "prefix": 22
+      },
+      {
+        "cidr": "10.0.8.0/21",
+        "start": 167774208,
+        "end": 167776255,
+        "prefix": 21
+      },
+      {
+        "cidr": "10.0.16.0/20",
+        "start": 167776256,
+        "end": 167780351,
+        "prefix": 20
+      },
+      {
+        "cidr": "10.0.32.0/19",
+        "start": 167780352,
+        "end": 167788543,
+        "prefix": 19
+      },
+      {
+        "cidr": "10.0.64.0/18",
+        "start": 167788544,
+        "end": 167804927,
+        "prefix": 18
+      },
+      {
+        "cidr": "10.0.128.0/17",
+        "start": 167804928,
+        "end": 167837695,
+        "prefix": 17
+      },
+      {
+        "cidr": "10.1.0.0/16",
+        "start": 167837696,
+        "end": 167903231,
+        "prefix": 16
+      },
+      {
+        "cidr": "10.2.0.0/15",
+        "start": 167903232,
+        "end": 168034303,
+        "prefix": 15
+      },
+      {
+        "cidr": "10.4.0.0/14",
+        "start": 168034304,
+        "end": 168296447,
+        "prefix": 14
+      },
+      {
+        "cidr": "10.8.0.0/13",
+        "start": 168296448,
+        "end": 168820735,
+        "prefix": 13
+      },
+      {
+        "cidr": "10.16.0.0/12",
+        "start": 168820736,
+        "end": 169869311,
+        "prefix": 12
+      },
+      {
+        "cidr": "10.32.0.0/11",
+        "start": 169869312,
+        "end": 171966463,
+        "prefix": 11
+      },
+      {
+        "cidr": "10.64.0.0/10",
+        "start": 171966464,
+        "end": 176160767,
+        "prefix": 10
+      },
+      {
+        "cidr": "10.128.0.0/9",
+        "start": 176160768,
+        "end": 184549375,
+        "prefix": 9
+      }
+    ],
+    "analysis": {
+      "riskScore": 0,
+      "warnings": []
+    }
+  }
+]

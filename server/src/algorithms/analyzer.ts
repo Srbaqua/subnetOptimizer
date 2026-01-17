@@ -22,7 +22,7 @@ export function analyzeAllocations(allocations: Allocation[]) {
   const warnings: { type: string; message: string }[] = [];
   let riskScore = 0;
 
-  // 1️⃣ Overlap detection
+  // Overlap detection
   const ranges = allocations
     .filter((a) => a.assignedCidr)
     .map((a) => ({
@@ -42,7 +42,7 @@ export function analyzeAllocations(allocations: Allocation[]) {
     }
   }
 
-  // 2️⃣ Large broadcast domain
+  //  Large broadcast domain
   for (const a of allocations) {
     if (a.capacity > 1024) {
       warnings.push({
@@ -53,7 +53,7 @@ export function analyzeAllocations(allocations: Allocation[]) {
     }
   }
 
-  // 3️⃣ Allocation errors
+  //  Allocation errors
   for (const a of allocations) {
     if (a.error) {
       warnings.push({
